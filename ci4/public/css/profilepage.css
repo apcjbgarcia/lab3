@@ -1,0 +1,137 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+.wrapper {
+        width: 100%;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 20px;
+        overflow: hidden;
+        background-color: #162651;
+        border: 2px solid light-grey;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        padding-right: 4%;
+        border-bottom: 5px solid #3E829A;
+        width: 95%;
+
+}
+
+li {
+        float: right;
+}
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+    margin-left: 50px;
+        padding: 14px 27px;
+        text-decoration: none;
+}
+
+li a:hover {
+        background-color: #fafaff;
+        color: black;
+}
+
+body {
+        background-color: #e0e0e0;
+}
+
+.flex-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+        padding-top: 90px;
+        padding-bottom: 80px;
+        max-width: 100%;
+        height: 650px;
+}
+
+.flex-container > div {
+        width: 50%;
+}
+
+.img-container {
+        max-width: 100%;
+}
+
+.img-pfp {
+        width: 60%;
+        height: auto;
+        align-items: center;
+        align-items: stretch;
+        float: right;
+}
+
+.about {
+        width: 100%;
+        padding-right: 100px;
+        padding-left: 150px
+}
+
+.about h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 55px;
+        color: #162651;
+}
+
+.about p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        color: #2F3B69;
+}
+
+.references {
+        display: block;
+        width: 75%;
+        padding: 30px;
+        padding-left: 50px;
+        border: 5px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 9%;
+}
+
+dl {
+        list-style-type : none;
+        margin: 0;
+        padding: 0px;
+        overflow: hidden;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 50px;
+}
+
+dt {
+        font-size: 32px;
+}
+
+dd {
+        font-size: 24px;
+        text-indent: 60px;
+}
+
+.demo {
+        width: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        color: #162651;
+        display: flex;
+}
+
+.demo h1 {
+        font-weight: bold;
+}
+
+span {
+        color: black;
+        font-size: 85px;
+}jbgarcia@172-104-63-246
