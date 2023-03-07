@@ -6,7 +6,8 @@ use CodeIgniter\Model;
 
 class NewsModel extends Model
 {
-    protected $table = 'jbgarcia_news';
+    protected $table = 'news';
+    protected $allowedFields = ['title', 'slug', 'body'];
     
     public function getNews($slug = false)
     {
